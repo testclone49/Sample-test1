@@ -1,0 +1,24 @@
+
+      
+<div class=" p-5">
+  <h4>Found Results: {{itemCount}}</h4>
+  <div class="p-5">
+    <ul class="list-group" *ngFor="let userDetails of userDetail;">
+      <li class="list-group-item">
+        <a href="{{userDetails.html_url}}">
+        <div class="row">
+          <div class="col-md-2" >
+            <img src="{{userDetails.owner.avatar_url}}" width="30px"/>
+          </div>
+            <div class="col-md-10">
+              {{userDetails.name}}
+            </div>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+    
+
+
