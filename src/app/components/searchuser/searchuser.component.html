@@ -1,7 +1,0 @@
-<div class="container mt-5">
-       <form  [formGroup]="searchform" (ngSubmit)="sendUser()" >
-            <label for="" class="form-label">Search Username </label>
-            <input type="text" class="form-control" name="" id=""   formControlName="username"> 
-            <button type="button" class="btn btn-primary mt-5" (click)="sendUser()" [disabled]="!this.searchform.valid">Get User</button>
-       </form>
-</div>
