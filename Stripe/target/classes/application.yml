@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+STRIPE_SECRET_KEY : sk_test_51IoXeyDxEwQ9enN7XM4Zcpy2iUKEPFSMXI44XnrCjPrs9AGOmX1cltUJ3TO5yqd0JbO68F1c1pWxCXT5IHhHi9M200H63fOQlJ
+STRIPE_PUBLIC_KEY : pk_test_51IoXeyDxEwQ9enN7rk4ziQgnaqGYnF4aVR2jTEQ3Jr3fWmAV7h4HwEpBGYxjJPOP9HFPKIhN2xnARc7t5V2aXLoX005NBF37CV
+
+payment:
+  purge:
+    # 6 hrs
+    frequency: 21600000
+    initial-delay: 60000

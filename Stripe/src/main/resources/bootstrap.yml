@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      database: stripe
+      port: 27017
+      host: 127.0.0.1
+      url: mongodb://localhost:27017/stripe?readPreference=primary&appname=MongoDB%20Compass%20Community&ssl=false
